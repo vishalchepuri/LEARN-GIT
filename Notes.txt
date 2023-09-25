@@ -62,6 +62,17 @@ git push -u origin main --> It is used to push the files from local repo to gith
 
 
 
+git checkout -b <branch-name> or  git switch -c <branch-name>--> To create a branch
+git branch --> To list all branches and the branch which has a * it is an active and it shows only local branches
+git branch --all  --> It shows local and remote branches
+git branch - -->It is used to switch to previous branch
+
+git branch -d <branch-name> -->It is used to delete branch
+
+
+
+
+git merge <branch-name> -->To merge mutliple branches
 
 
 
