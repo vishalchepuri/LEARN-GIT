@@ -75,5 +75,9 @@ git branch -d <branch-name> -->It is used to delete branch
 git merge <branch-name> -->To merge mutliple branches
 
 
+To go to previous commit
+git reset --hard <commit-ID>
+git push -f origin <branch-name>
+
 
 
