@@ -1,2 +1,1 @@
-This is my project
-author - vishal
+This is my Git notes
