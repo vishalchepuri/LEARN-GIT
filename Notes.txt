@@ -8,28 +8,28 @@ git init --> It initializes the git repository and the branch will be master.
 
 
 
-git init -b main -->It creates repository with main branch.
+git init -b main -->It creates a repository with the main branch.
 
-git add <file-name> -->To add to local git repository
+git add <file-name> -->To add to the local git repository
 
 git rm --cached <file-name> -->To remove a file from staging area.
 
 git commit -m "<message>" -->To commit the file
 
 
-So when we made the changes first we need to add that file to staging area that is <git add >  command then we need to commit it.
+So when we made the changes first we needed to add that file to the staging area which is the <git add >  command then we needed to commit it.
 
 
 git log --> To check commits with details
 
 
-git commit -a -m "without staging" -->It we use -a it goes to repository without staging
+git commit -a -m "without staging" --> If we use -a it goes to the repository without staging
 
 git diff -->It is used to track the changes in files.
 
 git diff --staged -->To get the change in files in the staging area.
 
-git add . -->To add all the files to staging
+git add . -->To add all the files to the staging
 
 
 
@@ -40,16 +40,16 @@ git add . -->To add all the files to staging
 
 
 
-git branch -M main --> It creates a new branch name with main
+git branch -M main --> It creates a new branch name with the main
 
 
-Instead of HTTPS we can do SSH so that we can login only once.
+Instead of HTTPS, we can do SSH so that we can log in only once.
 setup details : 
 1)ssh-keygen -o -->It generates the Key (press enter two times)
-2)now go enter "cd"(this goes to home directory
+2)now go enter "cd"(this goes to the home directory
 3)Now enter "cd .ssh"
 4)open id_rsa.pub file using "cat id_rsa.pub"
-5)Now go to settings in git hub and click SSH and add the ssh key. 
+5)Now go to settings in the git hub click SSH and add the SSH key. 
 
 
 
@@ -57,15 +57,15 @@ setup details :
 
 git remote add origin <git-link> -->It is used to add the remote link
 
-git checkout <branch-name> -->To which branch we need to push the files we need to keep that branch name.
-git push -u origin main --> It is used to push the files from local repo to github in main branch(-u means upstream)
+git checkout <branch-name> -->To which branch do we need to push the files to keep that branch name?
+git push -u origin main --> It is used to make the files from the local repo to GitHub in main branch(-u means upstream)
 
 
 
 git checkout -b <branch-name> or  git switch -c <branch-name>--> To create a branch
-git branch --> To list all branches and the branch which has a * it is an active and it shows only local branches
+git branch --> To list all branches and the branch which has a * it is active and it shows only local branches
 git branch --all  --> It shows local and remote branches
-git branch - -->It is used to switch to previous branch
+git branch - -->It is used to switch to the previous branch
 
 git branch -d <branch-name> -->It is used to delete branch
 
@@ -75,9 +75,6 @@ git branch -d <branch-name> -->It is used to delete branch
 git merge <branch-name> -->To merge mutliple branches
 
 
-To go to previous commit
+To go to the previous commit
 git reset --hard <commit-ID>
 git push -f origin <branch-name>
-
-
-
